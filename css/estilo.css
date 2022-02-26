@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+body .fundo{
+    position: absolute;
+    z-index: -9;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.caixote {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    background-color: transparent;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    
+}
+
+
+.cabecalho .logo {
+    width: 200px;
+    transition: 1s all ease;
+    
+       
+}
+
+.cabecalho .logo:hover {
+    transform: scale(1.2);
+}
+
+.cabecalho a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500; 
+    color: white;  
+    text-shadow: 2px 2px 8px black;
+    border-right: white 2px solid;
+    padding-right: 30px;
+}
+
+.cabecalho a:hover {
+    color: rgb(202, 202, 202);
+}
+
+.cabecalho a:last-child {
+    border-right: none;
+    padding-right: 0;
+
+}
+
+section .conteudo {
+    width: 60%;
+    
+}
+
+section .conteudo h1 {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-shadow: 1px 1px 8px black;
+    margin-top: 50px;
+}
+
+section .conteudo h2 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-shadow: 1px 1px 8px black;
+    margin-bottom: 150px;
+
+}
+
+section .conteudo a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    background-color: rgba(238, 238, 238, 0.39);
+    padding: 10px 25px;
+    border-radius: 25px;
+    
+}
+
+section .conteudo a:hover {
+    color: rgb(202, 202, 202);
+}
