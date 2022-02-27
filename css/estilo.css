@@ -7,12 +7,10 @@
     
 }
 
-body .fundo {
-    position: absolute;
-    z-index: -9;
-    height: 100vh;
-    width: 100vw;
+body {
 
+    background-color: rgb(1.5, 1.5, 1.5);
+    overflow-x: hidden;
 }
 
 .caixote {
@@ -21,12 +19,16 @@ body .fundo {
 }
 
 .cabecalho {
-    background-color: transparent;
+    background-color: black;
     z-index: 9;
+   padding: 25px 0;
+   
+}
+
+.cabecalho .caixote {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
     
 }
 
@@ -62,19 +64,25 @@ body .fundo {
 
 }
 
-section .conteudo {
+.banner {
+    width: 100%;
+    margin-bottom: 240px;
+    
+}
+
+.banner .conteudo {
     width: 60%;
     
 }
 
-section .conteudo h1 {
+.banner .conteudo h1 {
     color: rgb(255, 255, 255);
     font-size: 80px;
     text-shadow: 1px 1px 8px black;
     margin-top: 50px;
 }
 
-section .conteudo h2 {
+.banner .conteudo h2 {
     color: rgb(255, 255, 255);
     font-size: 35px;
     text-shadow: 1px 1px 8px black;
@@ -82,7 +90,7 @@ section .conteudo h2 {
 
 }
 
-section .conteudo a {
+.banner .conteudo a {
     text-decoration: none;
     color: aliceblue;
     font-weight: 500;
@@ -92,31 +100,29 @@ section .conteudo a {
     
 }
 
-section .conteudo a:hover {
+.banner .conteudo a:hover {
     color: rgb(202, 202, 202);
 }
 
-section .sobre h2 {
+.sobre h2 {
     font-size: 120px;
     text-align: center;
 }
 
 
-section .sobre {
-    color: rgb(0, 0, 0);
-    margin-top: 280px;
-    background-color: aliceblue;
-    padding: 50px;
+.sobre {
+    color: rgb(255, 255, 255);
+    padding: 30px;
     
 }
 
-section .sobre h3 {
-    color: black;
+.sobre h3 {
+    color: rgb(255, 255, 255);
     font-size: 20px;
     text-align: center;
 }
 
-section .sobre p {
+.sobre p {
     margin-top: 20px;
     font-size: 25px;
     font-style: italic;
